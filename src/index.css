@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}  
+
+body{
+  background: linear-gradient(to top right, #181818, #404040);
+  background-attachment:fixed;
+  height:100%;
+}
+
+
+.completed{
+  text-decoration: line-through;
+}
+
+/* Nav */
+.nav{
+  background-color: #282828;
+  padding:20px;
+  display:flex;
+  justify-content: center;
+}
+
+
+.nav-link{
+  color:orange ;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 10px 20px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  font-size:15px;
+  background-color: transparent;
+  transition:0.25s;
+}
+
+/* TodoList */
+
+.todoList-container{
+  margin: 0;
+}
+
+div h3{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+table{
+  text-align: center;
+  border-collapse: separate;
+  border-spacing:0 5px;
+  margin: 20px auto;
+  width:60%;
+}
+
+td,th {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;   
+  
+}
+
+td:first-child {
+  padding-left:20px;
+  padding-right:0;
+}
+
+table tr{
+  border-spacing: 5px;
+  background-color: #404040;
+}
+
+.table-body{
+  overflow:scroll;
+  height: 300px; 
+}
+
+tr:hover{
+  background-color: #606060;
+}
+
+.table-head{
+  background-color: rgb(177, 129, 39)!important;
+}
+
+/*edit link*/
+.link{
+  text-decoration: none;
+  color:white!important;
+}
+
+.link:hover{
+  color:orange!important;
+  font-size: 15px;
+  transition:0.25s; 
+}
+
+/*Create*/
+/* .create-container{
+} */
+.form{
+  padding:40px;
+  margin-top:50px;
+  position:absolute;
+  top:40%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background-color: #404040;
+  text-align: center;
+  width: 30%;
+}
+
+.form input[type="text"], input[type="password"]{
+  border:0;
+  background: none;
+  display:block;
+  margin:20px auto;
+  text-align: center;
+  color:white;
+  border: 2px solid rgb(177, 129, 39);
+  padding:14px 10px;
+  outline:none;
+  width: 200px;
+  border-radius: 24px;
+  transition:0.25s;
+}
+
+.form input[type="text"]:focus, input[type="password"]:focus{
+  width:280px;
+}
+
+input[type="radio"]{
+  margin:20px auto;
+  margin-bottom: 30px;
+}
+
+.form input[type="submit"]{
+  border:0;
+  background: none;
+  border: 2px solid rgb(177, 129, 39);
+  border-radius: 24px;
+  display:block;
+  margin:auto;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  transition:0.25;
+  cursor:pointer;
+  padding:18px 12px;
+}
+
+.form input[type="submit"]:hover{
+  background-color: rgb(177, 129, 39);
+}
+
+.priority-inputs{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.update{
+  margin-top: 95px;
+}
+  
