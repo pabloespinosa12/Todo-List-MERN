@@ -2,7 +2,6 @@
 
 ### Web application based on 'to-do' lists. 
 You will be able to Create, Read, Update and Delete (CRUD) your to-do tasks. It´s developed using MERN-Stack (which stands for MongoDB, Express.js, React & Node.js).
-Todo list application developed using MERN-Stack (which stands for: MongoDB, Express.js React & Node.js).
 
 ### How to use it? 
 
